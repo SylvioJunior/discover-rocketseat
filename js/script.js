@@ -6,9 +6,9 @@ function toggleMode() {
     const img = document.querySelector("#profile img");
 
     if (html.classList.contains("light")) {
-        img.setAttribute('src', 'person01.png');
+        img.setAttribute('src', 'img/avatar_black.png');
     } else {
-        img.setAttribute('src', 'person02.png');
+        img.setAttribute('src', 'img/avatar_light.png');
     }
 
 }
